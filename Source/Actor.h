@@ -1,13 +1,10 @@
 #pragma once
-typedef int ActorId;
-struct Vec3
-{
-	float x, y, z;
-};
+#include "helper.h"
 
 class Actor
 {
 public:
+	explicit Actor(void);
 	explicit Actor(ActorId id);
 	~Actor(void);
 	const Vec3& GetPosition(void) const {

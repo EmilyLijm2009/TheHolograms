@@ -116,9 +116,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Source\Actor.h" />
+    <ClInclude Include="..\..\..\Source\Asteroid.h" />
+    <ClInclude Include="..\..\..\Source\helper.h" />
+    <ClInclude Include="..\..\..\Source\Ship.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Source\Actor.cpp" />
+    <ClCompile Include="..\..\..\Source\Asteroid.cpp" />
+    <ClCompile Include="..\..\..\Source\helper.cpp" />
+    <ClCompile Include="..\..\..\Source\Ship.cpp" />
     <ClCompile Include="..\..\..\Source\TheHologramsApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
